@@ -83,24 +83,26 @@ class Queue {
     }
 }
 
-const queue = new Queue();
-console.log("队列是否为空",queue.isEmpty());
+// const queue = new Queue();
+// console.log("队列是否为空",queue.isEmpty());
 
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(3);
+// queue.enqueue(1);
+// queue.enqueue(2);
+// queue.enqueue(3);
 
-console.log("队列是否为空",queue.isEmpty());
+// console.log("队列是否为空",queue.isEmpty());
 
-console.log("队列元素：", queue.toString());
+// console.log("队列元素：", queue.toString());
 
-console.log("队列的长度",queue.size());
-console.log("队列的第一个元素",queue.peek());
-console.log("取出队列元素",queue.dequeue());
-console.log("队列的元素", queue.toString());
+// console.log("队列的长度",queue.size());
+// console.log("队列的第一个元素",queue.peek());
+// console.log("取出队列元素",queue.dequeue());
+// console.log("队列的元素", queue.toString());
 
-console.log("取出队列元素",queue.dequeue());
-console.log("队列的元素", queue.toString());
+// console.log("取出队列元素",queue.dequeue());
+// console.log("队列的元素", queue.toString());
 
-console.log("取出队列元素",queue.dequeue());
-console.log("队列的元素", queue.toString());
+// console.log("取出队列元素",queue.dequeue());
+// console.log("队列的元素", queue.toString());
+
+module.exports = Queue;
