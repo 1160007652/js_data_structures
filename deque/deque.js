@@ -129,6 +129,7 @@ class Deque {
     }
 }
 
+/*
 
 const deque = new Deque();
 
@@ -158,3 +159,7 @@ console.log("双端队列的元素：",deque.toString()); // John, Jack
 deque.addBack('Camila');
 console.log("向后添加 Camila 元素");
 console.log("双端队列的元素：",deque.toString()); // John, Jack
+
+*/
+
+module.exports = Deque;
